@@ -1,0 +1,2 @@
+*NYPD_Complaint_Data_Current__Year_To_Date_.csv filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
