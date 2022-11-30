@@ -1,0 +1,56 @@
+Full Data Description:-
+Provided by - NYC Open Data
+Agency - Police Department (NYPD)
+Views - 76.8K
+Downloads - 16K
+Rows - 257K
+Columns - 36
+Each row is a Complaint
+Source:- https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Current-Year-To-Date-/5uac-w243
+About This Dataset:-
+This Dataset Includes All Valid Felony, Misdemeanour, And Violation Crimes Reported To The New York City Police Department (NYPD) For All Complete Quarters Of The Year (2019)
+
+Background:- In Many Other Cities, Open Data Is A Technical Policy Or An Executive Order. In New York City, It’s The Law. On March 7, 2012, Former Mayor Bloomberg Signed Local Law 11 Of 2012, More Commonly Known As The “Open Data Law,” Which Amended The New York City Administrative Code To Mandate That All Public Data Be Made Available On A Single Web Portal By The End Of 2018. In November 2015, January 2016, And December 2017, Mayor De Blasio Approved Several Amendments To The Open Data Law. These Laws, Which Include Stronger Requirements On Data Dictionaries And Data Retention, Response Timelines For Public Requests, And An Extension Of The Open Data Mandate Into Perpetuity, Help Make It Easier For New Yorkers To Access City Data Online And Anchor The City’s Transparency Initiatives Around Open Data
+
+Update Frequency - Quarterly
+Automation - No Date Made Public - 11/1/2018
+
+For Additional Details, Please See The Attached Source:-https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Current-Year-To-Date-/5uac-w243
+
+Columns In Dataset :-
+CMPLNT_NUM - Randomly generated persistent ID for each complaint
+ADDR_PCT_CD - The precinct in which the incident occurred
+BORO_NM - The name of the borough in which the incident occurred
+CMPLNT_FR_DT - Exact date of occurrence for the reported event (or starting date of occurrence, if CMPLNT_TO_DT exists
+CMPLNT_FR_TM - Exact time of occurrence for the reported event (or starting time of occurrence, if CMPLNT_TO_TM exists)
+CMPLNT_TO_DT - Ending date of occurrence for the reported event, if the exact time of occurrence is unknown
+CMPLNT_TO_TM - Ending time of occurrence for the reported event, if the exact time of occurrence is unknown
+CRM_ATPT_CPTD_CD - Indicator of whether the crime was successfully completed or attempted, but failed or was interrupted prematurely
+HADEVELOPT - Name of NYCHA housing development of occurrence, if applicable
+HOUSING_PSA - Development Level Code
+JURISDICTION_CODE - Jurisdiction responsible for the incident. Either internal, like Police(0), Transit(1), and Housing(2); or external(3), like Correction, Port Authority, etc.
+JURIS_DESC - Description of the jurisdiction code
+KY_CD - Three-digit offence classification code
+LAW_CAT_CD - Level of offence: felony, misdemeanour, violation
+LOC_OF_OCCUR_DESC - Specific location of occurrence in or around the premises; inside, opposite of, front of, rear of
+OFNS_DESC - Description of offence corresponding with key code
+PARKS_NM - Name of NYC park, playground or greenspace of occurrence, if applicable (state parks are not included)
+PATROL_BORO - The name of the patrol borough in which the incident occurred
+PD_CD - Three-digit internal classification code (more granular than Key Code)
+PD_DESC -Description of internal classification corresponding with PD code (more granular than Offense Description)
+PREM_TYP_DESC - Specific description of premises; grocery store, residence, street, etc.
+RPT_DT - Date event was reported to police
+STATION_NAME - Transit station name
+SUSP_AGE_GROUP - Suspect’s Age Group
+SUSP_RACE - Suspect’s Race Description
+SUSP_SEX - Suspect’s Sex Description
+TRANSIT_DISTRICT - Transit district in which the offence occurred.
+VIC_AGE_GROUP - Victim’s Age Group
+VIC_RACE - Victim’s Race Description
+VIC_SEX - Victim’s Sex Description
+X_COORD_CD X - coordinate for New York State Plane Coordinate System, Long Island Zone, NAD 83, units feet (FIPS 3104)
+Y_COORD_CD Y - coordinate for New York State Plane Coordinate System, Long Island Zone, NAD 83, units feet (FIPS 3104)
+Latitude - Midblock Latitude coordinates for Global Coordinate System, WGS 1984, decimal degrees (EPSG 4326)
+Longitude - Midblock Longitude coordinate for Global Coordinate System, WGS 1984, decimal degrees (EPSG 4326)
+Lat_Lon - Latitude and Longitude combined
+New Georeferenced Column- This is a Geographical point coordinate
