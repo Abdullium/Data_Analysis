@@ -24,7 +24,7 @@ For Additional Details, Please See The Attached Source:-https://data.cityofnewyo
 
 Columns In Dataset :-
 CMPLNT_NUM - Randomly generated persistent ID for each complaint
-ADDR_PCT_CD - The precinct in which the incident occurred
+ADDR_PCT_CD - The precinct in which the incident occurre
 BORO_NM - The name of the borough in which the incident occurred
 CMPLNT_FR_DT - Exact date of occurrence for the reported event (or starting date of occurrence, if CMPLNT_TO_DT exists
 CMPLNT_FR_TM - Exact time of occurrence for the reported event (or starting time of occurrence, if CMPLNT_TO_TM exists)
