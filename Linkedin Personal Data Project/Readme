@@ -1,1 +1,9 @@
 
+In this project, I analyzed my personal LinkedIn data by taking into account several key variables such as Impressions, 
+Engagements,
+Connections, 
+and Date Connections.
+
+By dissecting each of these variables, I was able to perform a thorough analysis and draw meaningful insights from the data.¶
+The project involved several steps, including data collection, data cleaning, and data analysis. I started by gathering my LinkedIn data using the LinkedIn API, which provided me with detailed information about my profile activity. I then cleaned and organized the data to prepare it for analysis.
+Next, I performed a detailed analysis of each column in the dataset, comparing and contrasting variables to identify trends and patterns in the data. For instance, I compared the number of Impressions and Engagements against each other, looking for any correlations between the two variables. Similarly, I analyzed the number of Connections over time, examining how the growth of my network changed over the years
